@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MetroMain"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXPLORE"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:textColor="@android:color/white"
+        android:textSize="70sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent">
+
+
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Mode Activity"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:id="@+id/bt"
+            android:onClick="Mode"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:src="@drawable/directionsitalic"
+            />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/directions"
+                android:id="@+id/im"
+                android:layout_marginLeft="45dp"
+                android:layout_gravity="center_vertical"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal">
+
+
+            <ImageButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Mode Activity"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:id="@+id/button1"
+                android:onClick="Metro"
+                android:layout_gravity="center_horizontal"
+                android:clickable="false"
+                android:src="@drawable/me"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metroicon"
+                android:id="@+id/im2"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+
+            <ImageButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Mode Activity"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:id="@+id/bn"
+                android:onClick="Bus"
+                android:layout_gravity="center_horizontal"
+                android:clickable="false"
+                android:src="@drawable/busbutton"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bus"
+                android:id="@+id/im3"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center_vertical"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal">
+
+
+            <ImageButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="Start Mode Activity"
+                android:gravity="center_vertical"
+                android:id="@+id/bu"
+                android:onClick="Nearby"
+                android:layout_gravity="center_horizontal"
+                android:clickable="false"
+                android:src="@drawable/explore"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nearbyicon"
+                android:id="@+id/ie"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center_vertical"/>
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
